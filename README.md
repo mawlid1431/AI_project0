@@ -2,13 +2,22 @@
 
 ![8-Puzzle Game Screenshot](screenshot.png)
 
-**Project Note:**  
-This project was my first game and my first AI project for the AI class at my university.  
-It was a great learning experience in both game development and implementing AI algorithms!
+**About This Project**  
+This project is my first game and my first AI project, developed for the AI class at my university.  
+It was a valuable learning experience in both game development and artificial intelligence algorithms.
 
 ---
 
-A classic 8-puzzle game with AI-powered solving and hint features, built with Python and Pygame.
+A classic 8-puzzle game with AI-powered solving and hint features, built using Python and Pygame.
+
+---
+
+## 🌐 Play Online
+
+If you want to play or test the game online, click here:  
+**[▶️ Play Now](https://r19hninck55d.manus.space/)**
+
+---
 
 ## Features
 
@@ -22,41 +31,45 @@ A classic 8-puzzle game with AI-powered solving and hint features, built with Py
 
 ---
 
-## Installation
+## 🚀 Installation (Step-by-Step)
 
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/mawlid1431/AI_project0.git
-   cd AI_project0
-   ```
+### 1. Clone the Repository
 
-2. **Install Python 3.10+**  
-   Download from [python.org](https://www.python.org/downloads/).
+Open your terminal or command prompt and run:
+```bash
+git clone https://github.com/mawlid1431/AI_project0.git
+cd AI_project0
+```
 
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 2. Install Python
 
-   Or, if you only want to run the game:
-   ```bash
-   pip install pygame
-   ```
+Make sure you have **Python 3.10+** installed.  
+You can download it from [python.org](https://www.python.org/downloads/).
+
+### 3. Install Dependencies
+
+Install all required Python packages using:
+```bash
+pip install -r requirements.txt
+```
+If you only want to run the game, you can just install pygame:
+```bash
+pip install pygame
+```
 
 ---
 
-## How to Run
+## 🕹️ How to Run Locally
 
-To start the game, run:
+To start the game on your computer, run:
 ```bash
 python puzzle.py
 ```
-
-The game window will open. You can now play the 8-puzzle game!
+A game window will open, and you can start playing!
 
 ---
 
-## How to Play
+## 🎮 How to Play
 
 - **Move tiles:** Click on any tile adjacent to the empty space to move it.
 - **New Game:** Click "New Game" to shuffle and start a new puzzle.
@@ -66,19 +79,29 @@ The game window will open. You can now play the 8-puzzle game!
 
 ---
 
-## AI Algorithms
+## 🤖 AI Algorithms
 
 - **Hint:** Uses Greedy Best-First Search to suggest the next best move.
 - **Solve:** Uses the A* algorithm with Manhattan Distance heuristic to find the optimal solution path.
 
 ---
 
-## License
+## 📂 Source Code
+
+You can find all the source code in this repository.  
+- The main game logic is in `puzzle.py`.
+- The web interface (if used) is in `app.py`.
+
+Feel free to explore, modify, and learn from the code!
+
+---
+
+## 📝 License
 
 This project is for educational purposes.
 
 ---
 
-## Credits
+## 👤 Credits
 
 Developed by Mawlid1431.
